@@ -54,8 +54,6 @@ def guess():
 
 
         show_state.update_state(cap_answer, x_cor, y_cor)
-    else:
-        pass
 
 
 ### While Game is on
