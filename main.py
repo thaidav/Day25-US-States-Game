@@ -52,7 +52,6 @@ def guess():
         x_cor = int(data[data["state"] == cap_answer].x)
         y_cor = int(data[data["state"] == cap_answer].y)
 
-
         show_state.update_state(cap_answer, x_cor, y_cor)
 
 
