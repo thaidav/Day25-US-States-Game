@@ -45,6 +45,7 @@ def guess():
     lower_answer = answer_state.lower()
 
     if lower_answer in states_list:
+
         states_correct += 1
         states_list.remove(lower_answer)
 
