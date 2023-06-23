@@ -17,8 +17,8 @@ turtle.shape(image)
 ### Reading CSV
 
 data = pandas.read_csv("50_states.csv")
-
 states = data["state"]
+
 old_list = states.to_list()
 states_list = []
 
